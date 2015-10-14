@@ -69,7 +69,7 @@ body {
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(47, 240, 37), rgb(21, 99, 190));
+    background:         radial-gradient(rgb(215, 240, 227), rgb(13, 190, 182));
 
     -webkit-font-smoothing: antialiased;
 }
