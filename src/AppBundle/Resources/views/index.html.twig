@@ -6,181 +6,182 @@
 {% endblock stylesheets %}
 
 {% block body %}
-    <body class="impress-not-supported">
+    <div class="impress-not-supported, container">
 
-    <!--
-        For example this fallback message is only visible when there is `impress-not-supported` class on body.
-    -->
-    <div class="fallback-message">
-        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-    </div>
-
-    <div id="impress">
-
-        <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-            <span class="try, text-center">Hey.. It's me</span>
-            <h1>buddhikajay</h1>
-            <p class="text-center" style="font-size: 20px">Use Spacebar or Arrow Keys to Navigate</p>
+        <!--
+            For example this fallback message is only visible when there is `impress-not-supported` class on body.
+        -->
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
         </div>
 
-        <div class="step" data-x="850" data-y="2000" data-rotate="90" data-scale="2">
-            <p>
-                This is my resume, you can download the pdf version from <span><a href="">here</a></span>
-            </p>
-        </div>
+        <div id="impress">
 
-        <div class="step" style="font-size: 20px" data-x="-2000" data-y="-1500" data-scale="2">
-            <div class="row">
-                <div class="row, slide-heading">+ Education</div>
-                <div class="col-md-1"></div>
-                <div class="col-md-11">
-                    <div class="row, education">
-                        <div class="row, course">
-                            Bsc Integrated Computer Engineering (Undergraduate)
+            <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+                <span class="try, text-center">Hey.. It's me</span>
+                <h1>buddhikajay</h1>
+                <p class="text-center" style="font-size: 20px">Use Spacebar or Arrow Keys to Navigate</p>
+            </div>
+
+            <div class="step" data-x="850" data-y="2000" data-rotate="90" data-scale="2">
+                <p>
+                    This is my resume, you can download the pdf version from <span><a href="">here</a></span>
+                </p>
+            </div>
+
+            <div class="step" style="font-size: 20px" data-x="-2000" data-y="-1500" data-scale="2">
+                <div class="row">
+                    <div class="row, slide-heading">+ Education</div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        <div class="row, education">
+                            <div class="row, course">
+                                Bsc Integrated Computer Engineering (Undergraduate)
+                            </div>
+                            <div class="row, institute">
+                                University of Moratuwa, Sri Lanka
+                            </div>
                         </div>
-                        <div class="row, institute">
-                            University of Moratuwa, Sri Lanka
+                        <div class="row, education">
+                            <div class="row, course">
+                                Global Start-Up Labs
+                            </div>
+                            <div class="row, institute">
+                                Massachusetts Institute of Technology
+                            </div>
                         </div>
-                    </div>
-                    <div class="row, education">
-                        <div class="row, course">
-                            Global Start-Up Labs
+                        <div class="row, education">
+                            <div class="row, course">
+                                Embedded Control Systems Programming
+                            </div>
+                            <div class="row, institute">
+                                Arthur C Clarke Institute for Modern Technologies, Sri Lanka
+                            </div>
                         </div>
-                        <div class="row, institute">
-                            Massachusetts Institute of Technology
+                        <div class="row, education">
+                            <div class="row, course">
+                                G.C.E Advanced Level
+                            </div>
+                            <div class="row, institute">
+                                Dharmaraja College, Kandy, Sri Lanka
+                            </div>
                         </div>
-                    </div>
-                    <div class="row, education">
-                        <div class="row, course">
-                            Embedded Control Systems Programming
-                        </div>
-                        <div class="row, institute">
-                            Arthur C Clarke Institute for Modern Technologies, Sri Lanka
-                        </div>
-                    </div>
-                    <div class="row, education">
-                        <div class="row, course">
-                            G.C.E Advanced Level
-                        </div>
-                        <div class="row, institute">
-                            Dharmaraja College, Kandy, Sri Lanka
-                        </div>
-                    </div>
-                    <div class="row, education">
-                        <div class="row, course">
-                            G.C.E Ordinary Level
-                        </div>
-                        <div class="row, institute">
-                            Dharmaraja College, Kandy, Sri Lanka
+                        <div class="row, education">
+                            <div class="row, course">
+                                G.C.E Ordinary Level
+                            </div>
+                            <div class="row, institute">
+                                Dharmaraja College, Kandy, Sri Lanka
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="step" style="font-size: 20px" data-x="-100" data-y="-1800" data-rotate="90" data-scale="3">
-            <div class="row">
-                <div class="row, slide-heading">+ Skills</div>
+            <div class="step" style="font-size: 20px" data-x="-100" data-y="-1800" data-rotate="90" data-scale="3">
                 <div class="row">
-                    <table class="table-responsive table-hover">
-                        <tbody>
+                    <div class="row, slide-heading">+ Skills</div>
+                    <div class="row">
+                        <table class="table-responsive table-hover">
+                            <tbody>
+                                <tr>
+                                    <td class="table-data, skill-title">Embedded Systems </td>
+                                    <td class="table-data, skill-list"> <b>Assembly, AVRC, PIC MicroC, Arduino</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-data, skill-title">System development</td>
+                                    <td class="table-data, skill-list"><b>C, Java, Erlang, Python
+                                        </b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-data, skill-title">Web</td>
+                                    <td class="table-data, skill-list"><b>HTML5, JavaScript, PHP, NodeJS</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-data, skill-title">Mobile</td>
+                                    <td class="table-data, skill-list"><b>Android</b></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-data, skill-title">Databases</td>
+                                    <td class="table-data, skill-list"><b> MySQL, MongoDB, CouchDB</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step" style="font-size: 20px" data-x="2000" data-y="-1500"  data-scale="3">
+                <div class="row">
+                    <div class="row, slide-heading">+ Projects</div>
+                    <div class="row">
+                        <table class="table-responsive table-hover">
+                            <tbody>
                             <tr>
-                                <td class="table-data, skill-title">Embedded Systems </td>
-                                <td class="table-data, skill-list"> <b>Assembly, AVRC, PIC MicroC, Arduino</b></td>
+                                <td class="table-data, skill-title">Tourism On Net</td>
+                                <td class="table-data, skill-list"><b>Symfony | PHP | MySQL</b></td>
                             </tr>
                             <tr>
-                                <td class="table-data, skill-title">System development</td>
-                                <td class="table-data, skill-list"><b>C, Java, Erlang, Python
+                                <td class="table-data, skill-title">Smart Bed Cover</td>
+                                <td class="table-data, skill-list"> <b> Raspberrypi | Android | Nodejs</b></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data, skill-title">Car Media Cente</td>
+                                <td class="table-data, skill-list"><b> Raspberrypi | C | Linux | Bluez | A2DP</b></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data, skill-title">Captiosus</td>
+                                <td class="table-data, skill-list"><b> ESP 8266 | NodeJS | MongoDB | Python NLTK | (startup company)</b></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data, skill-title">Autonomous Rove</td>
+                                <td class="table-data, skill-list"><b>Arduino | Raspberrypi | Nodejs | OpenCV
                                     </b></td>
                             </tr>
+
                             <tr>
-                                <td class="table-data, skill-title">Web</td>
-                                <td class="table-data, skill-list"><b>HTML5, JavaScript, PHP, NodeJS</b></td>
+                                <td class="table-data, skill-title">Patients Management System</td>
+                                <td class="table-data, skill-list"><b>JavaFX | MySQL</b></td>
                             </tr>
                             <tr>
-                                <td class="table-data, skill-title">Mobile</td>
-                                <td class="table-data, skill-list"><b>Android</b></td>
+                                <td class="table-data, skill-title">Rhino Robot Arm Controll System</td>
+                                <td class="table-data, skill-list"><b>AVR C</b></td>
                             </tr>
                             <tr>
-                                <td class="table-data, skill-title">Databases</td>
-                                <td class="table-data, skill-list"><b> MySQL, MongoDB, CouchDB</b></td>
+                                <td class="table-data, skill-title">Aqua Project</td>
+                                <td class="table-data, skill-list"><b> Electronic water management system | AVR C</b></td>
                             </tr>
-                        </tbody>
-                    </table>
+                            <tr>
+                                <td class="table-data, skill-title">FPGA Processor </td>
+                                <td class="table-data, skill-list"><b>Basis II</b></td>
+                            </tr>
+                            <tr>
+                                <td class="table-data, skill-title">Line Following Robo</td>
+                                <td class="table-data, skill-list"><b>AVRC</b></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="step" style="font-size: 20px" data-x="2000" data-y="-1500"  data-scale="3">
-            <div class="row">
-                <div class="row, slide-heading">+ Projects</div>
-                <div class="row">
-                    <table class="table-responsive table-hover">
-                        <tbody>
-                        <tr>
-                            <td class="table-data, skill-title">Tourism On Net</td>
-                            <td class="table-data, skill-list"><b>Symfony | PHP | MySQL</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Smart Bed Cover</td>
-                            <td class="table-data, skill-list"> <b> Raspberrypi | Android | Nodejs</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Car Media Cente</td>
-                            <td class="table-data, skill-list"><b> Raspberrypi | C | Linux | Bluez | A2DP</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Captiosus</td>
-                            <td class="table-data, skill-list"><b> ESP 8266 | NodeJS | MongoDB | Python NLTK | (startup company)</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Autonomous Rove</td>
-                            <td class="table-data, skill-list"><b>Arduino | Raspberrypi | Nodejs | OpenCV
-                                </b></td>
-                        </tr>
-
-                        <tr>
-                            <td class="table-data, skill-title">Patients Management System</td>
-                            <td class="table-data, skill-list"><b>JavaFX | MySQL</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Rhino Robot Arm Controll System</td>
-                            <td class="table-data, skill-list"><b>AVR C</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Aqua Project</td>
-                            <td class="table-data, skill-list"><b> Electronic water management system | AVR C</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">FPGA Processor </td>
-                            <td class="table-data, skill-list"><b>Basis II</b></td>
-                        </tr>
-                        <tr>
-                            <td class="table-data, skill-title">Line Following Robo</td>
-                            <td class="table-data, skill-list"><b>AVRC</b></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div id="ing" class="step" data-x="4000" data-y="100" data-rotate="270" data-scale="3">
+                <p>You can find me on <b class="positioning"><a href="https://github.com/buddhika-jay">github</a></b>,
+                    <b class="rotating"><a href="https://lk.linkedin.com/in/buddhikajay">linkedin</a></b> or
+                    <b class="scaling"><a href="http://buddhikajay.blogspot.com/">blogger</a></b></p>
             </div>
+
+
+            <div id="overview" class="step" data-x="200" data-y="500" data-scale="10">
+            </div>
+
         </div>
 
-        <div id="ing" class="step" data-x="4000" data-y="100" data-rotate="270" data-scale="3">
-            <p>You can find me on <b class="positioning"><a href="https://github.com/buddhika-jay">github</a></b>,
-                <b class="rotating"><a href="https://lk.linkedin.com/in/buddhikajay">linkedin</a></b> or
-                <b class="scaling"><a href="http://buddhikajay.blogspot.com/">blogger</a></b></p>
-        </div>
-
-
-        <div id="overview" class="step" data-x="200" data-y="500" data-scale="10">
-        </div>
-
+        {#<div class="hint">#}
+            {#<p>Use a spacebar or arrow keys to navigate</p>#}
+        {#</div>#}
     </div>
-
-    {#<div class="hint">#}
-        {#<p>Use a spacebar or arrow keys to navigate</p>#}
-    {#</div>#}
 {% endblock body %}
 
 

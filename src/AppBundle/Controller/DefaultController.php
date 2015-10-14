@@ -21,7 +21,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/torrents", name="torrents")
+     * @Route("/test", name="test")
      */
     public function torrentsAction(Request $request)
     {
@@ -29,6 +29,6 @@ class DefaultController extends Controller
 //        return $this->render('default/index.html.twig', array(
 //            'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..'),
 //        ));
-        return $this->redirect('http://google.com');
+        return $this->render('@App/test.html.twig');
     }
 }
