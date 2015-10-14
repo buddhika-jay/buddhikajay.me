@@ -511,3 +511,16 @@ body     { pointer-events: none; }
     font-size: 20px;
 }
 
+.table-data{
+    padding: 10px;
+}
+
+.skill-title{
+    text-align: end;
+    padding: 5px;
+}
+
+.skill-list{
+    font-size: 30px;
+}
+
